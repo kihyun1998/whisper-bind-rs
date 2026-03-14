@@ -1,6 +1,3 @@
-[package]
-name = "whisper-bind-rs"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
+[workspace]
+members = ["whisper-sys", "whisper-bind-rs"]
+resolver = "2"
