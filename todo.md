@@ -29,7 +29,7 @@ whisper-bind-rs/          # workspace root
 
 ## 진행 상황
 
-- [ ] 1. whisper.cpp submodule 추가
+- [x] 1. whisper.cpp submodule 추가
 - [ ] 2. workspace + crate 구조 잡기
 - [ ] 3. build.rs 작성 (cc + bindgen)
 - [ ] 4. whisper-sys 바인딩 확인
