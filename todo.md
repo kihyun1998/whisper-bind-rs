@@ -33,6 +33,12 @@ whisper-bind-rs/          # workspace root
 - [x] 2. workspace + crate 구조 잡기
 - [x] 3. build.rs 작성 — cc crate로 whisper.cpp 컴파일
 - [x] 4. build.rs 작성 — bindgen으로 바인딩 생성
-- [ ] 5. whisper-sys 바인딩 확인
+- [x] 5. whisper-sys 바인딩 확인
 - [ ] 6. safe wrapper 작성
+  - [ ] 6-1. WhisperContext 구조체 — raw 포인터 감싸기 + Drop trait
+  - [ ] 6-2. 모델 로드 — whisper_init_from_file safe 함수
+  - [ ] 6-3. WhisperParams — whisper_full_params safe 생성 API
+  - [ ] 6-4. 음성 인식 실행 — whisper_full safe 함수
+  - [ ] 6-5. 결과 추출 — 인식된 텍스트를 String으로 가져오기
+  - [ ] 6-6. ggml-cpu 소스 추가 (missing symbol 대응)
 - [ ] 7. 테스트
