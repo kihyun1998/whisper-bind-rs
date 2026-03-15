@@ -31,7 +31,8 @@ whisper-bind-rs/          # workspace root
 
 - [x] 1. whisper.cpp submodule 추가
 - [x] 2. workspace + crate 구조 잡기
-- [ ] 3. build.rs 작성 (cc + bindgen)
-- [ ] 4. whisper-sys 바인딩 확인
-- [ ] 5. safe wrapper 작성
-- [ ] 6. 테스트
+- [x] 3. build.rs 작성 — cc crate로 whisper.cpp 컴파일
+- [ ] 4. build.rs 작성 — bindgen으로 바인딩 생성
+- [ ] 5. whisper-sys 바인딩 확인
+- [ ] 6. safe wrapper 작성
+- [ ] 7. 테스트
